@@ -1,0 +1,2 @@
+var gccPathCmd = fmt("[Environment]::SetEnvironmentVariable('{0}', '{1}', 'User')", "PROPGCC", env("BSI_SOURCE_DIR"))
+exec("powershell", gccPathCmd)
